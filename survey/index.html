@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by hannahjanes</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<style>
+  body {
+    background-color: pink;
+    color: brown;
+    font-family: calibri;
+  }
+</style>
+
+<h1 id="title"> Super Duper Important Survery Form </h1>
+
+<p id="description"> <b> Fill details below to answer very important questions </b> </p>
+
+<form id="survey-form">
+  <label for="name" id="name-label"> <b> name </b> </label>
+  <input type="text" id="name" name="name" required placeholder="Enter your name">
+  <p> <label for="email" id="email-label"> <b> email </b> </label>
+    <input id="email" type="email" name="email" placeholder="youremail@gmail.com" required>
+  </p>
+  <label for="number" id="number-label"> <b> age </b> </label>
+  <input id="number" type="number" name="number" placeholder="ie. 16" required min="16" max="28">
+
+  <br>
+  <br>
+  <label for="dropdowm" id="finger"> <b> select favorite finger </b> </label>
+  <select id="dropdown">
+    <option value="pointer_finger"> pointer finger </option>
+    <option value="middle_finger"> middle finger </option>
+    <option value="ring_finger"> ring finger </option>
+  </select>
+  <br>
+  <br>
+
+  <label for="favorite_color" id="favorite_color"> <b> favorite color: </b> </label>
+  <br>
+  <input id="favorite_color" type="radio" id="purple" name="color" value="purple">
+  <label for="favorite_color"> purple </label>
+  <br>
+  <input id="favorite_color" type="radio" id="pink" name="color" value="pink">
+  <label for="favorite_color"> pink </label>
+  <br>
+  <input id="favorite_color" type="radio" id="blue" name="color" value="blue">
+  <label for="favorite_color"> blue </label>
+  <br>
+  <br>
+
+  <label for="random button"> <b> pick a button: </b> </label>
+  <br>
+  <input id="checkbox" type="checkbox" name="pick one" value="#1">
+  <label for="checkbox"> option #1 </label>
+  <br>
+  <input id="checkbox" type="checkbox" name="pick one" value="#2">
+  <label for="checkbox"> option #2 </label>
+  <br>
+  <input id="checkbox" type="checkbox" name="pick one" value="#3">
+  <label for="checkbox"> option #3 </label>
+  <br>
+  <br>
+  <label id="textarea"> <b> additional comments </b> </label>
+  <br>
+  <textarea id="textarea" name="instructions" rows="5" cols="40">
+  </textarea>
+  <br>
+  <br>
+  <input id="submit" type="submit" value="send my answers">
+  
+</form>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
